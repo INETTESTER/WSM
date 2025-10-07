@@ -3,16 +3,34 @@ import { sleep } from 'k6';
 import { error_check } from '../check/check.js';
 import { scenario } from 'k6/execution';
 
-import { ran } from '../api/script.js';
-import { callback_scb } from '../api/getJson.js';
+import { showbusiness_moph } from '../api/showbusiness_moph.js';
+import { showbusiness_moph_detail_by_business_id } from '../api/showbusiness_moph_detail_by_business_id.js';
+import { advancedSearchjobs } from '../api/advancedSearchjobs.js';
+import { get_recruitment_by_businessid } from '../api/get_recruitment_by_businessid.js';
+import { get_recruitment_detail_by_recruitid } from '../api/get_recruitment_detail_by_recruitid.js';
+import { get_topic_job_and_news } from '../api/get_topic_job_and_news.js';
+import { get_news_by_businessid } from '../api/get_news_by_businessid.js';
+import { get_news_detail_by_businessid_and_news_id } from '../api/get_news_detail_by_businessid_and_news_id.js';
+import { get_topic_job_detail_by_topic_id } from '../api/get_topic_job_detail_by_topic_id.js';
+import { get_theme_by_site_name } from '../api/get_theme_by_site_name.js';
+import { insert_view_logs } from '../api/insert_view_logs.js';
 
 
 
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  response = ran()
-  //response = callback_scb(scenario)
+  response = showbusiness_moph()
+  //response = showbusiness_moph_detail_by_business_id()
+  //response = advancedSearchjobs()
+  //response = get_recruitment_by_businessid()
+  //response = get_recruitment_detail_by_recruitid()
+  //response = get_topic_job_and_news()
+  //response = get_news_by_businessid()
+  //response = get_news_detail_by_businessid_and_news_id()
+  //response = get_topic_job_detail_by_topic_id()
+  //response = get_theme_by_site_name()
+  //response = insert_view_logs()
 
   
   error_check(response);
