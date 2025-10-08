@@ -13,10 +13,10 @@ export function showbusiness_moph_detail_by_business_id() {
   const res = http.get(url, params);
 
   // Log response status + body (ถ้า body ใหญ่มาก อาจจะต้องตัดหรือ parse เฉพาะส่วน)
-  console.log('--- Response status: ' + res.status + ' ---');
-  console.log('--- Response body start ---');
-  console.log(res.body);
-  console.log('--- Response body end ---');
+  // console.log('--- Response status: ' + res.status + ' ---');
+  // console.log('--- Response body start ---');
+  // console.log(res.body);
+  // console.log('--- Response body end ---');
 
   return res;
 }

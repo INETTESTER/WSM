@@ -31,10 +31,10 @@ export function advancedSearchjobs() {
   const res = http.post(url, payload, params);
 
   // Log status และ body
-  console.log('--- Response status: ' + res.status + ' ---');
-  console.log('--- Response body start ---');
-  console.log(res.body);
-  console.log('--- Response body end ---');
+  // console.log('--- Response status: ' + res.status + ' ---');
+  // console.log('--- Response body start ---');
+  // console.log(res.body);
+  // console.log('--- Response body end ---');
 
   return res;
 }

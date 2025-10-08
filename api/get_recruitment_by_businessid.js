@@ -13,10 +13,10 @@ export function get_recruitment_by_businessid() {
   const res = http.get(url, params);
 
   // Log status และ body
-  console.log('--- Response status: ' + res.status + ' ---');
-  console.log('--- Response body start ---');
-  console.log(res.body);
-  console.log('--- Response body end ---');
+  // console.log('--- Response status: ' + res.status + ' ---');
+  // console.log('--- Response body start ---');
+  // console.log(res.body);
+  // console.log('--- Response body end ---');
 
   return res;
 }
