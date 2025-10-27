@@ -4,10 +4,10 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="get_news_by_businessid" 
+                     API="get_topic_job_detail_by_topic_id" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1QWcFVKuxVbh6J_GKZv_LEBk6Kxh_xWAZA-Cvf2cP4CQ/edit?gid=303761516#gid=303761516" 
                      id="2"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="10000";            #จำนวนผู้ใช้งาน
+                     user="6000";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)

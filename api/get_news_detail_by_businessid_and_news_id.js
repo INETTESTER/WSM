@@ -13,10 +13,10 @@ export function get_news_detail_by_businessid_and_news_id() {
   const res = http.get(url, params);
 
   // log response status และ body
-  console.log('--- Response status: ' + res.status + ' ---');
-  console.log('--- Response body start ---');
-  console.log(res.body);
-  console.log('--- Response body end ---');
+  // console.log('--- Response status: ' + res.status + ' ---');
+  // console.log('--- Response body start ---');
+  // console.log(res.body);
+  // console.log('--- Response body end ---');
 
   return res;
 }

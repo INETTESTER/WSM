@@ -13,10 +13,10 @@ export function get_topic_job_detail_by_topic_id() {
   const res = http.get(url, params);
 
   // แสดงผล response status และ body
-  console.log('--- Response status: ' + res.status + ' ---');
-  console.log('--- Response body start ---');
-  console.log(res.body);
-  console.log('--- Response body end ---');
+  // console.log('--- Response status: ' + res.status + ' ---');
+  // console.log('--- Response body start ---');
+  // console.log(res.body);
+  // console.log('--- Response body end ---');
 
   return res;
 }
