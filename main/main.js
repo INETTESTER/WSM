@@ -33,8 +33,8 @@ export default function () {    //เรียกใช้ API ใน export def
   //response = get_topic_job_detail_by_topic_id()
   //response = get_theme_by_site_name()
   //response = insert_view_logs()
-  //response = hello()
-  response = check_db()
+  response = hello()
+  //response = check_db()
 
   
   error_check(response);
