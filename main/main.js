@@ -22,7 +22,7 @@ import { check_db } from '../api/check_db.js';
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  //response = showbusiness_moph()
+  response = showbusiness_moph()
   //response = showbusiness_moph_detail_by_business_id()
   //response = advancedSearchjobs()
   //response = get_recruitment_by_businessid()
@@ -34,7 +34,7 @@ export default function () {    //เรียกใช้ API ใน export def
   //response = get_theme_by_site_name()
   //response = insert_view_logs()
   //response = hello()
-  response = check_db()
+  //response = check_db()
 
   
   error_check(response);
